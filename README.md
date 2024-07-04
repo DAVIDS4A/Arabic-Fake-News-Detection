@@ -119,7 +119,7 @@ Here is a comparison of the three models based on their performance metrics:
 | BiLSTM       | 98.70%   | 0.98      | 0.98   | 0.98     |
 | AraBert      | 96.21%   | 0.96      | 0.96   | 0.96     |
 
-The LSTM and BiLSTM models outperforms Arabert model in all performance metrics, however, AraBert seems more stable based on training accuracy and validation loss curves, demonstrating the effectiveness of transformer-based models in NLP tasks.
+The LSTM and BiLSTM models outperform Arabert model in all performance metrics, however, AraBert seems more stable based on the training accuracy and validation loss curves, demonstrating the effectiveness of transformer-based models in NLP tasks.
 
 ## 🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements.
