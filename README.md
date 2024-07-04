@@ -16,6 +16,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
+- [Comparison](#comparison)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -51,13 +52,13 @@ To use the models for fake news classification, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/DAVIDS4A/Arabic-Fake-News-Detection/arabic-fake-news-classifier.git
+    git clone https://github.com/DAVIDS4A/Arabic-Fake-News-Detection/arabic-fake-news-classifier-lstm-bilstm-bert.git
     cd arabic-fake-news-classifier
     ```
 
 2. Install dependencies:
     ```bash
-    pip install -r requirements.txt
+    !pip install <imports used in notebook>
     ```
 
 3. Run the Jupyter Notebook:
@@ -69,6 +70,32 @@ To use the models for fake news classification, follow these steps:
 
 ## 📊 Results
 The models were evaluated based on accuracy, precision, recall, and F1-score. Here are the results:
+
+### LSTM Model
+**Accuracy:** 99.59%
+```plaintext
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00      8792
+           1       0.99      1.00      1.00      8934
+
+    accuracy                           1.00     17726
+   macro avg       1.00      1.00      1.00     17726
+weighted avg       1.00      1.00      1.00     17726
+```
+
+### BiLSTM Model
+**Accuracy:** 98.70%
+```plaintext
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      8792
+           1       0.99      0.99      0.99      8934
+
+    accuracy                           0.99     17726
+   macro avg       0.99      0.99      0.99     17726
+weighted avg       0.99      0.99      0.99     17726
+```
 
 ### AraBert Model
 **Accuracy:** 96.21%
@@ -82,6 +109,17 @@ The models were evaluated based on accuracy, precision, recall, and F1-score. He
    macro avg       0.96      0.96      0.96     17726
 weighted avg       0.96      0.96      0.96     17726
 ```
+
+## 📈 Comparison
+Here is a comparison of the three models based on their performance metrics:
+
+| Model        | Accuracy | Precision | Recall | F1-Score |
+|--------------|----------|-----------|--------|----------|
+| LSTM         | 99.59%   | 0.99      | 0.99   | 0.99     |
+| BiLSTM       | 98.70%   | 0.98      | 0.98   | 0.98     |
+| AraBert      | 96.21%   | 0.96      | 0.96   | 0.96     |
+
+The LSTM and BiLSTM models outperforms Arabert model in all performance metrics, however, AraBert seems more stable based on training accuracy and validation loss curves, demonstrating the effectiveness of transformer-based models in NLP tasks.
 
 ## 🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements.
