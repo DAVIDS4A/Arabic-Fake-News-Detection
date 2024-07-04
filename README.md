@@ -51,7 +51,7 @@ To use the models for fake news classification, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/arabic-fake-news-classifier.git
+    git clone https://github.com/DAVIDS4A/Arabic-Fake-News-Detection/arabic-fake-news-classifier.git
     cd arabic-fake-news-classifier
     ```
 
