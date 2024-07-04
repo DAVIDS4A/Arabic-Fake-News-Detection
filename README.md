@@ -58,7 +58,7 @@ To use the models for fake news classification, follow these steps:
 
 2. Install dependencies:
     ```bash
-    !pip install <imports used in notebook>
+    !pip install -r requirements.txt
     ```
 
 3. Run the Jupyter Notebook:
