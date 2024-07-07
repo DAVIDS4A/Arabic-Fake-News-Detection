@@ -28,10 +28,10 @@ This project aims to detect fake news in Arabic using several Natural Language P
 3. **BERT (Bidirectional Encoder Representations from Transformers)**
 
 ## 🗂 Dataset
-The dataset used in this project was scrapped from popular arabic news websites like:<ul> <il> Misbar (https://misbar.com/)</il>
-<il>No Rumors (<a>http://norumors.net/)</a></il>
-<il>Verify-Sy (<a>https://verify-sy.com/)</a></il>
-<il>Fatabyyano (<a>https://fatabyyano.net/)</a></il></ul> 
+The dataset used in this project was scrapped from popular arabic news websites like:
+<ul> <li> Misbar (https://misbar.com/)</li><li>No Rumors (<a>http://norumors.net/)</a></li>
+<li>Verify-Sy (<a>https://verify-sy.com/)</a></li>
+<li>Fatabyyano (<a>https://fatabyyano.net/)</a></li></ul> 
 It's a collection of Arabic news articles labeled as fake or real. The data preprocessing includes text cleaning, tokenization, and splitting into training and testing sets. 
 
 ## 🔍 Models Implemented
